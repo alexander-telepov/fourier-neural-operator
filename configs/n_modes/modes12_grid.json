@@ -1,0 +1,21 @@
+{
+    "command": "train&test",
+    "exp_name": "modes12_grid",
+    "net_arch": "2d",
+    "dataset": "ns_V1e-3_N5000_T50",
+    "batch_size": 20,
+    "n_epochs": 100,
+    "weight_decay": 0.0005,
+    "learning_rate": 0.0025,
+    "scheduler_step": 35,
+    "scheduler_gamma": 0.5,
+    "n_modes_x": 12,
+    "n_modes_y": 12,
+    "width": 20,
+    "predictive_mode": "multiple_step",
+    "t_in": 10,
+    "t_out": 40,
+    "val_ratio": 0.1,
+    "test_ratio": 0.2,
+    "num_samples": 2000
+}

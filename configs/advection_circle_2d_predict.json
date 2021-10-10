@@ -1,0 +1,1 @@
+{"exp_name": "advection_circle_2d", "net_arch": "2d", "batch_size": 10, "n_epochs": 500, "dataset": "advection_circle_1", "command": "predict", "t_in": 10, "t_out": 40, "S": 64, "num_samples": 512, "test_ratio": 0.2, "device": "cuda", "predictions_path": "pred_gt"}
